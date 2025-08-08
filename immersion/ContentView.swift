@@ -207,6 +207,7 @@ struct PianoOverlayView: View {
             Spacer()
             MusicSheetView(notes: sampleNotes, highlightedIndex: $highlightedNoteIndex)
                 .frame(width: 1150, height: 100)
+                .padding(.top, 50)
             Spacer()
             Piano(highlightedIndex: $highlightedNoteIndex, musicNotes: sampleNotes)
                 .padding(.top, 50)
