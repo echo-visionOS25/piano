@@ -377,15 +377,17 @@ struct TutorialView: View {
                 Text("Choose Experience Mode")
                     .font(.title2)
                 
-                Button("🌌 Immersive View") {
-                    onSelectMode(true)
-                }
-                .buttonStyle(.borderedProminent)
+//                Button("🌌 Immersive View") {
+//                    onSelectMode(true)
+//                }
+//                .buttonStyle(.borderedProminent)
                 
                 Button("🪟 Real World Overlay") {
                     onSelectMode(false)
                 }
                 .buttonStyle(.borderedProminent)
+                
+                ToggleImmersiveSpaceButton()
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             //        .background(Color.white)
@@ -442,6 +444,8 @@ struct TutorialView: View {
     }
 
 
-#Preview {
+#Preview(windowStyle: .automatic) {
     ContentView()
+        .environment(AppModel())
 }
+
