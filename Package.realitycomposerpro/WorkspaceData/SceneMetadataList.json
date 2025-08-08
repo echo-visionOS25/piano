@@ -17,7 +17,7 @@
       [
         "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
         "Root",
-        "GridMaterial"
+        "Sphere"
       ],
       {
         "isExpanded" : true,
@@ -26,7 +26,7 @@
       [
         "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
         "Root",
-        "Sphere"
+        "GridMaterial"
       ],
       {
         "isExpanded" : true,
@@ -96,37 +96,6 @@
     "objectMetadataList" : [
       [
         "B7C75779-00D9-483A-B153-553A9A1E0967",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "B7C75779-00D9-483A-B153-553A9A1E0967",
-        "Root",
-        "whiteNote",
-        "Cube_1"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "B7C75779-00D9-483A-B153-553A9A1E0967",
-        "Root",
-        "whiteNote"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      }
-    ]
-  },
-  "BBD66FE3-E890-4E5F-92D7-076D230D7E39" : {
-    "objectMetadataList" : [
-      [
-        "BBD66FE3-E890-4E5F-92D7-076D230D7E39",
         "Root"
       ],
       {
